@@ -1,0 +1,15 @@
+
+[package]
+name = "moon_coin"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MoonCoin = "0xa9aa1587371e78286391d86d7e951cf2c177e5d48eb494387e74eefcc53d6217"
+[dev-addresses]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "eb0144a39ada521d8dee01c9dbd601853d383fb3" }
+SupraVrf = { git = "https://github.com/Entropy-Foundation/vrf-interface", subdir = "aptos/testnet", rev = "ff49e3688411d2374f75994a8713f86a5760868a"  }
+
+[dev-dependencies]
